@@ -1,0 +1,104 @@
+
+ * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main_work {
+  margin-top: 190px;
+  background-color: white;
+  padding: 0 20px;
+}
+
+.work {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.work h1 {
+  font-size: 60px;
+}
+
+.work h1 span {
+  color: gray;
+}
+
+.work_box1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.work_box2 {
+  width: 30%;
+  min-width: 280px;
+  background-color: white;
+  text-align: left;
+}
+
+.work_box2 img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.work_box2 h3 {
+  font-size: 28px;
+  margin: 10px 0 5px 0;
+}
+
+.work_box2 p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+
+/* 🖥️ Tablet (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  .work h1 {
+    font-size: 42px;
+  }
+
+  .work_box2 {
+    width: 45%;
+  }
+
+  .work_box2 h3 {
+    font-size: 22px;
+  }
+
+  .work_box2 p {
+    font-size: 16px;
+  }
+}
+
+
+/* 📱 Mobile (max-width: 600px) */
+@media screen and (max-width: 600px) {
+  .main_work {
+    margin-top: 100px;
+  }
+
+  .work h1 {
+    font-size: 32px;
+  }
+
+  .work_box2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .work_box2 img {
+    margin: 0 auto;
+  }
+
+  .work_box2 h3 {
+    font-size: 20px;
+  }
+
+  .work_box2 p {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+}

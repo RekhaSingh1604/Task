@@ -1,0 +1,172 @@
+/* *{
+    margin: 0px;
+    padding: 0px
+}
+.main_services{
+    width: 100vw;
+    height: 50vw;
+    margin-top: 140px;
+    background-color: white;
+}
+.services{
+    margin-left: 840px;
+    
+}
+.services h1{
+    font-size: 60px;
+}
+span{
+    color: rgb(189, 173, 173);
+}
+
+.services_display{
+    margin-top:120px;
+    margin-left: 180px;
+    margin-right: 190px;
+    display: flex;
+    justify-content: space-between;
+}
+.services1{
+    width: 23%;
+}
+hr{
+    color: orange;
+}
+
+
+
+.insurance{
+    margin-top: 80px;
+    background-color: white;
+}
+.insurance img{
+    width: 100vw;
+    
+}
+
+@media screen and (max-width: 1024px) {
+  .services h1 {
+    font-size: 48px;
+  }
+
+  .services_display {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .services1 {
+    width: 45%;
+  }
+
+  .insurance img {
+    width: 100%;
+  }
+}
+
+
+/
+@media screen and (max-width: 768px) {
+  .services h1 {
+    font-size: 36px;
+  }
+
+  .services_display {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 60px;
+  }
+
+  .services1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .services1 h1 {
+    font-size: 24px;
+  }
+
+  .services1 p {
+    font-size: 16px;
+  }
+
+  .insurance img {
+    width: 100%;
+  }
+} */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main_services {
+  width: 100%;
+  padding: 60px 20px;
+  background-color: white;
+}
+
+.services {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.services h1 {
+  font-size: 60px;
+}
+
+.services h1 span {
+  color: rgb(189, 173, 173);
+}
+
+.services_display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+  width: 70%;
+  margin-left: 190px;
+}
+
+.services1 {
+  width: 30%;
+  min-width: 280px;
+}
+
+.services1 h1 {
+  font-size: 28px;
+}
+
+.services1 p {
+  font-size: 18px;
+  margin: 10px 0;
+  margin-left: 48px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid orange;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Insurance Section */
+.insurance {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.insurance img {
+  width: 100%;
+  height: auto;
+}
+
+/* 🌐 Tablet */
+@media screen and (max-width: 1024px) {
+  .services h1 {
+    font-size: 48px;
+  }
+
+  .services1 {
+    width: 45%;
+  }}

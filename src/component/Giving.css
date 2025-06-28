@@ -1,0 +1,98 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+}
+.giving{
+   background-color:whitesmoke;
+   margin-top: 50px;
+   height: 40vw;
+}
+.giving .giving_h1{
+    margin-left: 600px;
+    width: 39%;
+}
+.giving_h1 h1{
+font-size: 60px;
+}
+.box_main{
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    box-shadow: 0 4px 8px rgba(138, 23, 23, 0.29);
+    width: 500px;
+    border-radius: 7px;
+    margin-left: 200px;
+    margin-right: 100px;
+    background-color: white;
+}
+.box h3{
+    margin-left:170px;
+    margin-top: 60px;
+} 
+ 
+
+
+
+
+/* ---------------------- */
+/* 📱 Mobile Responsive */
+/* ---------------------- */
+@media screen and (max-width: 768px) {
+  .giving {
+    margin-top: 200px;
+    padding: 40px 10px;
+  }
+
+  .giving .giving_h1 {
+    width: 90%;
+  }
+
+  .giving_h1 h1 {
+    font-size: 30px;
+  }
+
+  .box_main {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .box h1 {
+    font-size: 24px;
+  }
+
+  .box p {
+    font-size: 16px;
+  }
+}
+
+
+/* ---------------------- */
+/* 💻 Tablet Responsive */
+/* ---------------------- */
+@media screen and (max-width: 1024px) {
+  .giving .giving_h1 {
+    width: 80%;
+  }
+
+  .giving_h1 h1 {
+    font-size: 45px;
+  }
+
+  .box_main {
+    gap: 30px;
+    padding: 0 20px;
+    justify-content: center;
+  }
+
+  .box {
+    width: 45%;
+  }
+}

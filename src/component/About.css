@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about{
+    background-color: whitesmoke;
+}
+.main-about{
+    margin-top: 120px;
+    /* background-color: whitesmoke; */
+    font-size: 25px;
+    width: 50vw;
+    align-items: center;
+}
+.main-about h1{
+    font: 1em sans-serif;
+    width: 100%;
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 660px;
+}
+span{
+    color: gray;
+}
+.main-about p{
+    margin-top: 40px;
+    margin-left: 660px;
+    width: 90%;
+    font-size: 24px;
+}
+.main-about p .para{
+    margin-left: 600px;
+}
+.main-about .one{
+    margin-left: 720px;
+    margin-top: 0px;
+}
+
+ .Box1 {
+  display: flex;
+  margin-left: 300px;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 70vw;
+  height: auto;  
+}
+
+.box2 {
+  flex: 0 0 calc(50% - 20px);
+  box-sizing: border-box;
+  background-color: #fff;
+  margin-top: 100px;
+  border-radius: 20px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.box2 h1 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.box2 p {
+  font-size: 27px;
+  font-weight: 100;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+p{
+     font-size: 27px;
+    font-weight: 100;
+    margin-left: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .main-about {
+    margin-top: 80px;
+    width: 80vw;
+  }
+
+  .main-about h1 {
+    font-size: 32px;
+    margin-left: 100px;
+  }
+
+  .main-about p {
+    font-size: 20px;
+    margin-left: 100px;
+    width: 90%;
+  }
+
+  .Box1 {
+    margin-left: 0;
+    width: 90vw;
+    justify-content: center;
+  }
+
+  .box2 {
+    flex: 0 0 calc(50% - 20px);
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-about {
+    margin-top: 60px;
+    width: 90vw;
+  }
+
+  .main-about h1 {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+
+  .main-about p {
+    font-size: 18px;
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  .Box1 {
+    flex-direction: column;
+    align-items: center;
+    width: 95vw;
+    gap: 30px;
+    margin-left: 0;
+  }
+
+  .box2 {
+    width: 90%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .box2 h1 {
+    font-size: 22px;
+    margin-left: 10px;
+  }
+
+  .box2 p {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  h1, p {
+    margin-left: 10px;
+  }
+}

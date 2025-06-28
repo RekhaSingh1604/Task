@@ -1,0 +1,84 @@
+
+.customer-main {
+  margin-top: 170px;
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+.customer-2 h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.customer3 {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  height: 30%;
+}
+
+.customer4 {
+  width: 30%;
+  height: 140%;
+  background-color: white;
+  padding: 70px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.customer5 p {
+  font-size: 23px;
+  color: #333;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.customer6 {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 15px;
+}
+
+.customer6 img {
+  width: 130px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+
+.customer-info h2 {
+  font-size: 18px;
+  margin: 0;
+  color: #111;
+}
+
+.customer-info span {
+  font-size: 14px;
+  color: #888;
+}
+@media (max-width: 768px) {
+  .customer4 {
+    width: 100%;
+  }
+
+  .customer6 {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.spinner {
+  margin: 60px auto 0;
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #333;
+  /* border-radius: 50%; */
+  width: 40px;
+  height: 40px;
+  /* animation: spin 1s linear infinite; */
+}
+
