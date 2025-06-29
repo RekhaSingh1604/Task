@@ -28,7 +28,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 40px;
+  gap: 20px;
+  margin-left: 120px;
 }
 
 .work_box2 {
@@ -46,10 +47,12 @@
 .work_box2 h3 {
   font-size: 28px;
   margin: 10px 0 5px 0;
+  width: 250px;
 }
 
 .work_box2 p {
   font-size: 18px;
+width: 300px;
   line-height: 1.4;
 }
 
